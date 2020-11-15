@@ -73,10 +73,11 @@ namespace WorkINI
                     }
                 }
             }
-            // При возникновении ошибки, выводим название ошибки на экран
+            // При возникновении ошибки, выводим название ошибки на экран и присваем dataINI null
             catch (Exception exception)
             {
                 Console.WriteLine("Ошибка: " + exception.Message);
+                dataINI = null;
             }
         }
         // Возвращаем таблицу

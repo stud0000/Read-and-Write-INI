@@ -33,11 +33,15 @@ namespace WorkINI
         {
             // Создаем объект класса ReadINI и присваиваем таблицу
             DataTable dataINI = new ReadINI().ReturnTable();
-            // Производим сортировку
-            dataINI = Sort(dataINI);
-            // Записываем таблицу в INI файл, если dataINI не равна нулю
-            if(dataINI != null)
-                new WriteINI().WriteFile(dataINI);
+            // Проверяем не возникло ли ошибок при чтении INI файла
+            if (dataINI != null)
+            {
+                // Производим сортировку
+                dataINI = Sort(dataINI);
+                // Записываем таблицу в INI файл, если dataINI не равна нулю
+                if (dataINI != null)
+                    new WriteINI().WriteFile(dataINI);
+            }
         }
     }
 }
