@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkINI", "WorkINI.csproj", "{70F24C6C-7215-46E6-A465-A3E5E9CD127B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70F24C6C-7215-46E6-A465-A3E5E9CD127B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70F24C6C-7215-46E6-A465-A3E5E9CD127B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70F24C6C-7215-46E6-A465-A3E5E9CD127B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70F24C6C-7215-46E6-A465-A3E5E9CD127B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {30A981E2-CAA7-4D1C-9123-668FAE92FA0F}
+	EndGlobalSection
+EndGlobal
